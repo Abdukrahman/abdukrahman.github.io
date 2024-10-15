@@ -1,0 +1,134 @@
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            color: #34495e;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            color: #ecf0f1;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            border-bottom: 4px solid #3498db;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .post-meta {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+
+        .post-content {
+            margin-bottom: 30px;
+        }
+
+        .post-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .tags {
+            margin: 20px 0;
+        }
+
+        .tags span {
+            display: inline-block;
+            background: #2980b9;
+            color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 5px;
+            font-size: 0.9em;
+        }
+
+        .comments {
+            margin-top: 40px;
+        }
+
+        .comment {
+            border-bottom: 1px solid #eaeaea;
+            padding: 10px 0;
+        }
+
+        .comment h3 {
+            margin: 0;
+            font-size: 1.1em;
+        }
+
+        .comment p {
+            margin: 5px 0;
+        }
+
+        .pagination {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .pagination button {
+            padding: 12px 20px;
+            margin: 0 5px;
+            border: none;
+            background: #2980b9;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .pagination button:hover {
+            background: #3498db;
+            transform: translateY(-2px);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #e67e22;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-bottom: 20px;
+            transition: background 0.3s ease, transform 0.3s ease;
+            text-align: center;
+        }
+
+        .back-button:hover {
+            background: #d35400;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #2c3e50;
+            color: #ecf0f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .center{
+          text-align: center;
+        }
