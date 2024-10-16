@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>书籍详情页</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin: 20px auto; /* 居中网页内容 */
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 400px; /* 设置图片最大宽度 */
+            border-radius: 5px; /* 给图片添加圆角 */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px auto;  /* 居中目录列表 */
+            display: grid; /* 使用网格布局 */
+            grid-template-columns: repeat(5, 1fr); /* 设置 5 列 */
+            gap: 10px; /* 添加列间距 */
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #337ab7; /* 设置链接颜色 */
+        }
+
+        @media (max-width: 600px) { /* 如果屏幕宽度小于 600px */
+            ul {
+                grid-template-columns: repeat(2, 1fr); /* 使用 2 列 */
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+ <!--   <img src="" alt="书籍封面"> -->
+
+    <h1>九阴符录</h1>
+
+    <p>作者：奔波霸是也</p>
+    <p>简介：用爱发电的书籍不需要简介...</p>
+
+    <h2>目录</h2>
+    <ul>
+        <li><a href="https://abdukrahman.github.io/post/books/九阴符录/下山.html">第一章：下山</a></li>
+    </ul>
+
+    <div style="margin-top: 20px;">
+<!-- 
+     <button>上一页</button>
+      <button>下一页</button> 
+-->
+
+    </div> 
+
+
+</body>
+</html>
+
+
+
